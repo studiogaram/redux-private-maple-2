@@ -1,13 +1,12 @@
+/**
+ * Created by garam on 2016. 6. 12..
+ */
 import React from 'react'
-import Footer from './Footer'
-import AddTodo from '../containers/AddTodo'
-import VisibleTodoList from '../containers/VisibleTodoList'
+import SelectDungeon from '../containers/SelectDungeon'
 
 const App = () => (
     <div>
-        <AddTodo />
-        <VisibleTodoList />
-        <Footer />
+        <SelectDungeon />
     </div>
 )
 
